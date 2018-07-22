@@ -325,85 +325,98 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.python {
   	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
+.labview {
   	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: labview 2s ease;
+  	-webkit-animation: labview 2s ease;
 }
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+.latex {
+  	width: 30%;
+  	-moz-animation: latex 2s ease;
+  	-webkit-animation: latex 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+.sql {
+  	width: 40%;
+  	-moz-animation: sql 2s ease;
+  	-webkit-animation: sql 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.cad {
+  	width: 20%;
+  	-moz-animation: cad 2s ease;
+  	-webkit-animation: cad 2s ease;
+}
+.scripting {
+  	width: 12%;
+  	-moz-animation: scripting 2s ease;
+  	-webkit-animation: scripting 2s ease;
+}
+.msoffice {
+  	width: 54%;
+  	-moz-animation: msoffice 2s ease;
+  	-webkit-animation: msoffice 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes python {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
+@-moz-keyframes labview {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-moz-keyframes css {
+@-moz-keyframes latex {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 30%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 40%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes cad {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 20%;  }
+}
+@-moz-keyframes scripting {
+  0%   { width: 0px;  }
+  100% { width: 12%;  }
+}
+@-moz-keyframes msoffice {
+  0%   { width: 0px;  }
+  100% { width: 54%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes python {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
+@-webkit-keyframes labview {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes latex {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 30%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 40%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes cad {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 20%;  }
+}
+@-webkit-keyframes scripting {
+  0%   { width: 0px;  }
+  100% { width: 12%;  }
+}
+@-webkit-keyframes msoffice {
+  0%   { width: 0px;  }
+  100% { width: 45%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -630,7 +643,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -654,7 +667,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
