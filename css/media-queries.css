@@ -19,6 +19,10 @@
       margin: 0 auto 12px auto;
    }
 
+   /* Contact Section
+   ------------------------------------------------------------------- */
+   #contact { padding-bottom: 500px; }
+
 }
 
 /* screenwidth less than 900px
@@ -283,7 +287,7 @@
    }
 
 
-   /* contact Section
+   /* Contact Section
    ----------------------------------------------------------------------- */
    #contact { padding-bottom: 66px; }
    #contact .section-head { margin-bottom: 12px; }
@@ -293,9 +297,9 @@
       margin-bottom: 30px;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }
-   #contact h1 span { display: block; }
+   #contact h1 span { display: inline-block; }
+   #contact h4 { text-align: center; }
    #contact .header-col { padding-top: 0; }
-   #contact .header-col h1:before { content: none;	}
    #contact .section-head p.lead { text-align: center;}
 
    /* form */
